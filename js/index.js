@@ -85,3 +85,8 @@ const loginPopup = document.querySelector(".login-popup");
      console.log(i)
     },1000);
 }
+
+close.addEventListener("click",function(){
+    loginPopup.classList.remove("show");
+  })
+
