@@ -1,9 +1,17 @@
 /*Responsive*/
-@media(max-width: 767px) {
-    .container-fluid{
-        width: calc(100% -30px);
-    }
+@media(max-width: 767px){
+	.login-popup .box{
+		width: calc(100% - 30px);
+	}
+	.login-popup .box .img-area{
+		display: none;
+	}
+	.login-popup .box .form{
+		flex: 0 0 100%;
+        max-width: 100%;
+	}
 }
+
 
 body {
     margin: 0;
@@ -150,4 +158,27 @@ main article audio {
 .login-popup .box .form label{
 	font-size: 15px;
 	color:#555555;
+}
+.login-popup .box .form .btn{
+	width: 100%;
+	background-color: #5b1ee9;
+	margin-top:40px;
+	height: 45px;
+	border:none;
+	border-radius: 25px;
+	font-size: 15px;
+	text-transform: uppercase;
+	color:#ffffff;
+	cursor: pointer;
+}
+.login-popup .box .form .btn:focus{
+	outline: none;
+}
+
+.login-popup .box .form .close{
+	position: absolute;
+	right: 10px;
+	top:0px;
+	font-size: 30px;
+	cursor: pointer;
 }
