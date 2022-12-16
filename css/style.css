@@ -1,3 +1,10 @@
+/*Responsive*/
+@media(max-width: 767px) {
+    .container-fluid{
+        width: calc(100% -30px);
+    }
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -47,3 +54,6 @@ main article audio {
 main article audio {
     width: 100%;
 }
+
+
+
