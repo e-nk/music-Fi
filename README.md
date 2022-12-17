@@ -41,6 +41,6 @@ To run this project, make sure you have live server installed on your Visual Stu
 
 - After you have installed the live server, at the bottom of your VS code you should see a Go Live, click on it and your project should open on your browser
 
-
+<h1>Take Note</h1><br>If you have an error, checkout closed issues on [CLOSED ISSUES](https://github.com/e-nk/music-Fi/issues) If your issue is not there, feel free to open a new issue and I will get to it.
 
 You have successfully run this project
