@@ -39,7 +39,7 @@ To run this project, make sure you have live server installed on your Visual Stu
                 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 
 
--After you have installed the live server, at the bottom of your VS code you should see a Go Live, click on it and your project should open on your browser
+- After you have installed the live server, at the bottom of your VS code you should see a Go Live, click on it and your project should open on your browser
 
 
 
