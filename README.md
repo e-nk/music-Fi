@@ -43,6 +43,6 @@ To run this project, make sure you have live server installed on your Visual Stu
 
 <h1>Take Note</h1>
 
-If you have an error, checkout closed issues on [CLOSED ISSUES](https://github.com/e-nk/music-Fi/issues/) If your issue is not there, feel free to open a new issue and I will get to it.
+If you have an error, checkout closed issues on [CLOSED ISSUES](https://github.com/e-nk/music-Fi/issues?q=is%3Aissue+is%3Aclosed) If your issue is not there, feel free to open a new issue and I will get to it.
 
 You have successfully run this project
