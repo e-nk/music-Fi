@@ -1,6 +1,10 @@
 # music-Fi
 An application that allows you to search for music using Itunes API
 
+<h3>Preview</h3> 
+
+You can view the project by following this link [CLICK ME](https://e-nk.github.io/music-Fi/)
+
 # Getting started
 To setup and run this project on your machine, follow through these instructions and steps.
 In order for you to use the content on this repo ensure you have the following:
