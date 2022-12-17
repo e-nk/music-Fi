@@ -24,3 +24,21 @@ To run this program on your computer, follow through these steps:
 
                 code .
 
+# Running this project
+If you have followed through the installation instructions well, you should not have any problem running this code.
+
+To run this project, make sure you have live server installed on your Visual Studio Code. To install live server, follow these steps:
+
+    - On the left side of your VS code you should see 6 icons arranged horizontally. Click on the 5th icon with 4 square boxes called Extensions. on the searchbox, search for live server and install the extension
+
+                        Name: Live Server
+                Id: ritwickdey.LiveServer
+                Description: Launch a development local Server with live reload feature for static & dynamic pages
+                Version: 5.7.9
+                Publisher: Ritwick Dey
+                VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+
+
+    -After you have installed the live server, at the bottom of your VS code you should see a Go Live, click on it and your project should open on your browser
+
+You have successfully run this project
