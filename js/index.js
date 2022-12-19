@@ -88,15 +88,14 @@ const loginPopup = document.querySelector(".login-popup");
 
 close.addEventListener("click",function(){
     loginPopup.classList.remove("show");
+
   })
+const submit = document.querySelector(".btn");
+submit.addEventListener("click",function(){
+    loginPopup.classList.remove("show");
 
-//SIgnup form
-// const signupBtn = document.querySelector(".nav-link");
-// const closes = document.querySelector(".close");
-// window.addEventListener("click",function(){})
+}
+)
 
 
 
-// closes.addEventListener("click",function(){
-//     signupBtn.classList.remove("show");
-//   })

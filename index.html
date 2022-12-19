@@ -16,10 +16,10 @@
             <a class="navbar-brand text-light" href="#">Music-Fi</a>
             <ul class="navbar-nav me-auto d-flex flex-row " >
                 <li class="nav-item me-2">
-                    <a class="text-light nav-link" href="#">Sign Up</a>
+                    <a class="text-light nav-link" href="#"></a>
                 </li>
                 <li class="nav-item me-2">
-                    <a class="text-light nav-link" href="#">Log In</a>
+                    <a class="text-light nav-link" href="#"></a>
                 </li>
             </ul>
             <input type="text" id="search">
@@ -36,71 +36,35 @@
              <div class="img-area">
                  <div class="img">
                  </div>
-                 <h1>Music-Fi Logo</h1>
+                 <!-- <h1>Music-Fi Logo</h1> -->
              </div>
-             <div class="form">
+             <div class="form" id="myForm">
                  <div class="close">&times;</div>
-                 <h1>Log In</h1>
-                 <form>
-                     <div class="form-group">
-                         <input type="text" placeholder="Email" class="form-control">
-                     </div>
-                     <div class="form-group">
-                         <input type="password" placeholder="Password" class="form-control">
-                     </div>
-                     <div class="form-group">
-                         <label><input type="checkbox">
-                             Remember Me
-                         </label>
-                     </div>
-                     <button type="button" class="btn btn-outline-info">Log In</button>
+                 <h1>Join Us</h1>
+                  <form onsubmit="return false"> <!-- False prevents reloading the page when submitting using a form ||Alternative button type= "button" -->
+                    
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Full Name" class="form-control" required><!--required prevents empty form fields-->
+                    </div> 
+                    <div class="form-group" >
+                        <input type="email" name="email" placeholder="Email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="Phone" placeholder="Phone Number eg. +254-700-972-000" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="Password" placeholder="Password" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label><input type="checkbox" required>
+                            I agree to the terms and conditions of Music-Fi
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-outline-info">Sign Up</button>
                  </form>
              </div>
         </div>
-        </div>
-
-        <!-- Sign Up form -->
-        <!-- <div class="signup">
-            <div class="box">
-                 <div class="img-area">
-                     <div class="img">
-                     </div>
-                     <h1>Music-Fi Logo</h1>
-                 </div>
-                 <div class="form">
-                     <div class="close">&times;</div>
-                     <h1>Sign Up</h1>
-                     <form>
-                        <div class="form-group">
-                            <input type="text" placeholder="Full Name" class="form-control">
-                        </div>
-                        <div class="form-group">
-                            <input type="text" placeholder="Email" class="form-control">
-                        </div>
-                         <div class="form-group">
-                             <input type="number" placeholder="Phone Number" class="form-control">
-                         </div>
-                         <div class="form-group">
-                             <input type="password" placeholder="Password" class="form-control">
-                         </div>
-                         <div class="form-group">
-                            <input type="password" placeholder="Confirm Password" class="form-control">
-                        </div>
-                         <div class="form-group">
-                             <label><input type="checkbox">
-                                 I agree to the terms and conditions of the Application
-                             </label>
-                         </div>
-                         <button type="button" class="btn btn-outline-info">Sign Up</button>
-                     </form>
-                 </div>
-            </div>
-            </div>
-    -->
-
-
-      
-
+        </div>  
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
 </body>
