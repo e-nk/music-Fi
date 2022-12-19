@@ -17,7 +17,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: #7e7eb9;
+    background: #c5dce2;
 }
 
 nav {
@@ -44,7 +44,7 @@ main article {
     border-radius: 3px;
     overflow: hidden;
     margin-bottom: 25px;
-    background: #b9b7c5;
+    background: #408df1;
 }
 
 main article img {
