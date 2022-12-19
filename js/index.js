@@ -90,12 +90,3 @@ close.addEventListener("click",function(){
     loginPopup.classList.remove("show");
 
   })
-const submit = document.querySelector(".btn");
-submit.addEventListener("click",function(){
-    loginPopup.classList.remove("show");
-
-}
-)
-
-
-
